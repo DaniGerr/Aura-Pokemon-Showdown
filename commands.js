@@ -1615,7 +1615,6 @@ var commands = exports.commands = {
 		});
 	},
 
-	away: 'blockchallenges',
 	idle: 'blockchallenges',
 	blockchallenges: function (target, room, user) {
 		user.blockChallenges = true;

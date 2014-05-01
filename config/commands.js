@@ -1240,6 +1240,12 @@ var commands = exports.commands = {
 		return this.sendReply(target.split(',').map(function (s) { return s.trim(); }).randomize()[0]);
 	},
 
+	away: function (target, room, user) {
+		user.away = !user.away;
+		user.updateIdentity();
+		this.sendReply("You are " + (user.away ? "now" : "no longer") + " away.");
+	},
+
 	/*********************************************************
 	 * Help commands
 	 *********************************************************/
