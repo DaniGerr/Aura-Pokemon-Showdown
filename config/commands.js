@@ -1166,10 +1166,6 @@ var commands = exports.commands = {
 		}
 	},
 
-	/*********************************************************
-	 * Custom commands
-	 *********************************************************/
-
 	d: 'poof',
 	cpoof: 'poof',
 	poof: (function () {
@@ -1210,10 +1206,6 @@ var commands = exports.commands = {
 		return this.sendReply("Poof is now enabled.");
 	},
 
-	/*********************************************************
-	 * Custom commands
-	 *********************************************************/
-
 	hide: 'hideauth',
 	hideauth: function (target, room, user) {
 		if (!this.can('hideauth')) return false;
@@ -1241,10 +1233,6 @@ var commands = exports.commands = {
 		user.updateIdentity();
 		return this.sendReply("You are now showing your authority!");
 	},
-
-	/*********************************************************
-	 * Custom commands
-	 *********************************************************/
 
 	pr: 'pickrandom',
 	pickrandom: function (target, room, user) {
