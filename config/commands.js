@@ -1246,10 +1246,6 @@ var commands = exports.commands = {
 		this.sendReply("You are " + (user.away ? "now" : "no longer") + " away.");
 	},
 
-	/*********************************************************
-	 * Help commands
-	 *********************************************************/
-
 	customavatars: 'customavatar',
 	customavatar: (function() {
 		const script = (function() {/*
