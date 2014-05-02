@@ -1370,7 +1370,8 @@ var commands = exports.commands = {
 			"</center>"
 		);
 	},
-	
+
+	auramac: 'auramacrarazy',
 	auramacrarazy: function () {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox(
@@ -1381,6 +1382,20 @@ var commands = exports.commands = {
 				"<strong>Favourite Pokemon: </strong> Aggron/Charizard<br />" +
 				"<strong>Favourite Types: </strong> Steel and Fire<br />" +
 				"<img src=\"http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif\" />" +
+			"</center>"
+		);
+	},
+
+	auralegit: function () {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox(
+			"<center>" +
+				"<strong>Name: </strong> Aura✫E4 Legit<br />" +
+				"<strong>Rank: </strong> Leader<br />" +
+				"<strong>Bucks: </strong> 100<br />" +
+				"<strong>Favourite Pokemon: </strong> Hydregon/Haxorus<br />" +
+				"<strong>Favourite Type: </strong> Dragon/Fire<br />" +
+				"<img src=\"http://aura.xiaotai.org/avatars/aurae4legit.png\" />" +
 			"</center>"
 		);
 	},
