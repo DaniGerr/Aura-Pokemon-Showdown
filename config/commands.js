@@ -1371,6 +1371,7 @@ var commands = exports.commands = {
 		);
 	},
 	
+	auramac: 'auramacrarazy',
 	auramacrarazy: function () {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox(
