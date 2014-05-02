@@ -1343,6 +1343,20 @@ var commands = exports.commands = {
 		};
 	})(),
 
+	auraprime: function () {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox(
+			"<center>" +
+				"<strong>Name: </strong> Aura Prime<br />" +
+				"<strong>Rank: </strong> Admin<br />" +
+				"<strong>Bucks: </strong> Infinite<br />" +
+				"<strong>Favourite Pokemon: </strong> Mega-Lucario<br />" +
+				"<strong>Favourite Types: </strong> Dragon and Ice<br />" +
+				"<img src=\"http://play.pokemonshowdown.com/sprites/xyani/lucario-mega.gif\" />" +
+			"</center>"
+		);
+	},
+
 	/*********************************************************
 	 * Help commands
 	 *********************************************************/
