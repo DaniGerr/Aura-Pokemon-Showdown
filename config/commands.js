@@ -1357,6 +1357,20 @@ var commands = exports.commands = {
 		);
 	},
 
+	auradark: function () {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox(
+			"<center>" +
+				"<strong>Name: </strong> Aura Dark<br />" +
+				"<strong>Rank: </strong> Leader<br />" +
+				"<strong>Bucks: </strong> Idk :/<br />" +
+				"<strong>Favourite Pokemon: </strong> Greninja/Hydreigon<br />" +
+				"<strong>Favourite Types: </strong> Dragon and Dark<br />" +
+				"<img src=\"http://play.pokemonshowdown.com/sprites/bwani/hydreigon.gif\" />" +
+			"</center>"
+		);
+	},
+
 	/*********************************************************
 	 * Help commands
 	 *********************************************************/
