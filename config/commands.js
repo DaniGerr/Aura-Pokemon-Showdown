@@ -1370,6 +1370,20 @@ var commands = exports.commands = {
 			"</center>"
 		);
 	},
+	
+	auramacrarazy: function () {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox(
+			"<center>" +
+				"<strong>Name: </strong> Aura macrarazy<br />" +
+				"<strong>Rank: </strong> Leader<br />" +
+				"<strong>Bucks: </strong> Not infinite :/<br />" +
+				"<strong>Favourite Pokemon: </strong> Aggron/Charizard<br />" +
+				"<strong>Favourite Types: </strong> Steel and Fire<br />" +
+				"<img src=\"http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif\" />" +
+			"</center>"
+		);
+	},
 
 	/*********************************************************
 	 * Help commands
