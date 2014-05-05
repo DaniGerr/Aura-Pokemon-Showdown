@@ -1377,8 +1377,8 @@ var commands = exports.commands = {
 		this.sendReplyBox(
 			"<center>" +
 				"<strong>Name: </strong> Aura macrarazy<br />" +
-				"<strong>Rank: </strong> Leader<br />" +
-				"<strong>Bucks: </strong> Not infinite :/<br />" +
+				"<strong>Rank: </strong> Driver<br />" +
+				"<strong>Bucks: </strong> Not infinite kek<br />" +
 				"<strong>Favourite Pokemon: </strong> Aggron/Charizard<br />" +
 				"<strong>Favourite Types: </strong> Steel and Fire<br />" +
 				"<img src=\"http://www.pkparaiso.com/imagenes/xy/sprites/animados/aggron.gif\" />" +
