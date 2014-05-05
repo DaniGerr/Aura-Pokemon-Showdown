@@ -1399,6 +1399,20 @@ var commands = exports.commands = {
 			"</center>"
 		);
 	},
+	
+	aurapaldi: function () {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox(
+			"<center>" +
+				"<strong>Name: </strong> Aura Paldi<br />" +
+				"<strong>Rank: </strong> Leader<br />" +
+				"<strong>Bucks: </strong> Not infinite<br />" +
+				"<strong>Favourite Pokemon: </strong> Mega Charizard Y<br />" +
+				"<strong>Favourite Types: </strong> Steel, Fire and Water<br />" +
+				"<img src=\"http://www.pkparaiso.com/imagenes/xy/sprites/animados/charizard-megay.gif\" />" +
+			"</center>"
+		);
+	},
 
 	/*********************************************************
 	 * Help commands
