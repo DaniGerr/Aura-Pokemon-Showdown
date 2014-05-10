@@ -1432,7 +1432,7 @@ var commands = exports.commands = {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox(
 			"<center>" +
-				"<img src=\"http://i.imgur.com/XxWBxvC.png\" />" +
+				"<img src=\"http://i.imgur.com/XxWBxvC.png\" /><br />" +
 				"<strong>Rank: </strong> Admin<br />" +
 				"<strong>Bucks: </strong> Infinite<br />" +
 				"<strong>Favourite Pokemon: </strong> Infernape<br />" +
