@@ -1427,6 +1427,20 @@ var commands = exports.commands = {
 			"</center>"
 		);
 	},
+	
+	aurazarif: function () {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox(
+			"<center>" +
+				"<img src=\"http://i.imgur.com/XxWBxvC.png\" />" +
+				"<strong>Rank: </strong> Admin<br />" +
+				"<strong>Bucks: </strong> Infinite<br />" +
+				"<strong>Favourite Pokemon: </strong> Infernape<br />" +
+				"<strong>Favourite Types: </strong> Fire and Ice<br />" +
+				"<img src=\"http://www.pkparaiso.com/imagenes/xy/sprites/animados/infernape.gif\" />" +
+			"</center>"
+		);
+	},
 
 	/*********************************************************
 	 * Help commands
